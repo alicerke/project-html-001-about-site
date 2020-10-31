@@ -1,0 +1,256 @@
+body {
+    background-image: url("/assets/images/20590.jpg");
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    color: #444444; 
+    margin: 0;
+}
+/* Header */
+header {
+    background-color: #fff;
+}
+header .logo {
+    width: 400px;
+    height: auto;
+}
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 100% !important;
+    }
+}
+
+main {
+    background-image: url("/assets/images/20590.jpg");
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    color: #444444; 
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background: rgb(46, 45, 45);
+    color: #fff;
+    text-align: right;
+}
+.footerstyle {
+    padding-right: 30px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: rgb(113, 113, 163);
+}
+
+
+/* Navigation */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+ul.topnav li {float: left;}
+  
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+ul.topnav li a.active {background-color: #6377b9;}
+  
+ul.topnav li.right {float: right;}
+  
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+/* Home Content */
+section {
+    margin: auto;
+}
+.homebox1 {
+    background: #fff;
+    border: 1px solid;
+    border-color: rgb(207, 201, 201);
+    border-radius: 10px;
+    margin: auto;
+    padding:  50px;
+    width: 90%;
+    font-size: 1.5rem;
+}
+.line {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+.boxFont {
+    width: 100%;
+}
+.boxImage {
+    padding: 10px;
+    text-align: center;
+}
+.boxImage img {
+    border-radius: 30px;
+    width: 500px;
+    height: 230px;
+    padding: 10px;
+}
+.homboxpos {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.homebox h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    }
+.homebox {
+    display: inline-block;
+    width:30%;
+    height: auto;
+    background:#ffffff;
+    margin:60px 20px;
+    border: 1px solid;
+    border-color: rgb(207, 201, 201);
+    border-radius: 10px;
+    }
+.shadow {
+    -webkit-box-shadow:0 10px 6px -6px #777;
+    -moz-box-shadow:0 10px 6px -6px #777;
+    box-shadow:0 10px 6px -6px #777;
+}
+
+
+@media screen and (max-width: 600px) {
+    .homebox1 {
+        margin: auto;
+        padding: 5px;
+        font-size: 1.0rem;
+    }
+    .boxImage img {
+        width: 100%;
+        height: auto;        
+    }
+    .homebox {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+/* Gallery Content */
+.boxGallery {
+    padding: auto;
+    text-align: center;
+}
+.boxGallery img {
+    border-radius: 30px;
+    width: 500px;
+    height: 230px;
+    margin: 10px;
+}
+.imgshadow {
+    box-shadow: 4px 4px;
+    color: rgb(101, 118, 175);
+}
+
+@media screen and (max-width: 600px) {
+    .boxGallery {
+        padding: auto;
+    }
+    .boxGallery img {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+/* Works Content */
+.worksBox {
+    width: auto;
+    margin: 10px;
+}
+.boxImg {
+    width: 30%;
+    height: 310px;
+    display: inline-block;
+    margin: auto;
+}
+
+.boxImg img {
+    border-radius: 20px;
+    width: 400px;
+    height: 310px;
+    margin: 10px;
+
+}
+.boxText {
+    width: 60%;
+    height: 310px;
+    display: inline-block;
+
+}
+.worksline {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .boxImg {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .boxImg img {
+        width: 90%;
+        height: auto;
+    }
+    .boxText {
+        width: auto;
+    }
+}
+/* About */
+.profilImg {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    margin: auto;
+}
+.profilImg img {
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+.profilFont {
+    display: block;
+    margin: 10px;
+}
+.properties {
+    background-color: #fff;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid;
+    border-color: #777;
+    -webkit-box-shadow:0 10px 6px -6px #777;
+    -moz-box-shadow:0 10px 6px -6px #777;
+    box-shadow:0 10px 6px -6px #777;
+}
+
+
+
