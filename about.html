@@ -1,95 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>Bemutatkozás</title>
+    <title>Félhelyes István- About</title>
 </head>
+
 <body>
     <header>
-        <div class="logo">
-            <img src="/assets/images/cover.png" alt="" width="100%">
-        </div>
+        <img src="/assets/images/cover.png" alt="Félhelyes István">
     </header>
+    <nav id="navbar">
+        <ul class="topnav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+        </ul>
+    </nav>
     <main>
-        <nav>
-            <ul class="topnav" id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="works.html">Works</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a class="active" href="about.html">About</a></li>
-            </ul>
-        </nav>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <section>
-            <div class="worksBox">
-                <div class="profilImg">
+            <article>
+                <div class="profil-image">
                     <img src="/assets/images/profil.png" alt="">
                 </div>
-                <div class="boxText">
-                    <h2>Pár szó rólam.</h2>
-                    <div class="worksline"></div>
-                    <p class="profilFont">
-                         <div class="properties">
-                            <p>Mit csináltam eddig:</p>
-                            <ul class="a">
-                              <li>Fotosként dolgoztam ( esküvők, prtfóliók, tárgyfotózás )</li>
-                              <li>Öntözörendszerek telepítése</li>
-                              <li>bűnügyi helyszínelő</li>
-                            </ul>
-                         </div>
-                         <div class="properties">
-                            <p>Errőségeim:</p>
-                            <ul class="a">
-                              <li>probléma megoldás</li>
-                              <li>komunikáció</li>
-                              <li>tájékozódás ( térlátás )</li>
-                              <li>változás/tanulás képessége</li>                           
-                            </ul>
-                         </div>
-                         <div class="properties">
-                            <p>Hobbim:</p>
-                            <ul class="a">
-                              <li>kertészkedés</li>
-                              <li>gamerkedés ( főként MMORPG )</li>
-                              <li>Családommal lenni és velük programokat csinálni </li>
-                            </ul>
-                         </div>
-                         <br><br><br><br><br><br><br><br>        
+                <div class="profil-text">
+                    <h3>Pár szó rólam!</h3>
+                    <div class="line"></div>
+                    <p>
+                    <p>Mit csináltam eddig:</p>
+                    <ul>
+                        <li>Dolgoztam fotósként ( esküvők, prtfóliók, tárgyfotózás )</li>
+                        <li>Telepítettem öntözőrendszereket</li>
+                        <li>bűnügyi helyszínelő ( Rendőrségnél )</li>
+                    </ul>
+                    <p>Erősségeim:</p>
+                    <ol>
+                        <li>probléma megoldás</li>
+                        <li>komunikáció</li>
+                        <li>tájékozódás ( térlátás )</li>
+                        <li>változás/tanulás képessége</li>
+                    </ol>
+                    <p>Hobbim:</p>
+                    <ul>
+                        <li>kertészkedés</li>
+                        <li>gamerkedés ( főként MMORPG )</li>
+                        <li>Családommal lenni és velük programokat csinálni </li>
+                    </ul>
                     </p>
-                </div>
-            </div>
-            <br><br><br><br>
-            
-            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-                Név:<br>
-                <input type="text" name="name"><br>
-                E-mail:<br>
-                <input type="text" name="mail"><br>
-                Üzenett:<br>
-                <input type="text" name="comment" size="50"><br><br>
-                <input type="submit" value="Küldés">
-                <input type="reset" value="Törlés">
-                </form>
+                </div><br><br>
+            </article>
         </section>
+        <section>
+            <article>
+                <div class="form-box">
+                    <p>
+                        <h3>Lépj velem kapcsolatba!</h3>
+                    </p>
+                    <form action="">
+                      <label for="name">Neved:</label>
+                      <input type="text" id="fname" name="name" minlength="5" placeholder="Hogy szólíthatlak..." required>
+                  
+                      <label for="email">E-mail:</label>
+                      <input type="email" id="lname" name="email" placeholder="E-mail címed..." required>
+                                    
+                      <label for="subject">Üzenet:</label>
+                      <textarea id="subject" name="subject" placeholder="Irj nekem valamit.." minlength="20" style="height:200px" required></textarea>
+                  
+                      <button type="submit">Küldés</button>
+                    </form>
+                  </div>
+            </article>
+        </section><br><br>
     </main>
-    <br>
     <footer>
-        <div class="footerstyle">
-            <br>
-            <h3>
-                <a href="#navbar">Ugrás a menüre</a>
-            </h3>
-            <br>
-        </div>
+        <br>
+        <h3><a href="#navbar">Ugrás a menüre</a></h3>
+        <br>
     </footer>
-
-
-
 </body>
+
 </html>
